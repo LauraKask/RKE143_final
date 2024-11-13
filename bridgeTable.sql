@@ -60,6 +60,36 @@ VALUES (3, 14);
 INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
 VALUES (3, 15);
 
+INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
+VALUES (4, 17);
+
+INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
+VALUES (4, 7);
+
+INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
+VALUES (4, 19);
+
+INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
+VALUES (4, 20);
+
+INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
+VALUES (4, 21);
+
+INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
+VALUES (4, 16);
+
+INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
+VALUES (4, 22);
+
+INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
+VALUES (4, 23);
+
+INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
+VALUES (4, 24);
+
+INSERT INTO ingredientinrecipe (recipeid,  ingredientid)
+VALUES (4, 2);
+
 
 SELECT a.recipeName, b.ingredientName FROM recipe a
 INNER JOIN IngredientInRecipe c
