@@ -9,13 +9,4 @@ const itemsPool = new Pool({
     }
 });
 
-
-// const itemsPool = new Pool({
-//     user: 'postgres',
-//     password: 'postgres',
-//     host: 'localhost',
-//     port: 5432,
-//     database: 'myrecipes'
-// });
-
 module.exports = itemsPool;

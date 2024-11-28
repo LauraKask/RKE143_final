@@ -1,16 +1,12 @@
 const express = require('express');
-const recipeRouter = require('./routes/recipes.routes');
-const ingredientRouter = require('./routes/ingredients.routes');
-const fullRecipesRouter = require('./routes/fullRecipes.routes');
-const randomRouter = require('./routes/randomRecipes.routes');
+const bodyParser = require('body-parser');
+const todoRouter = require('./routes/todo.routes');
 const app = express();
 
 app.use(express.json());
+app.use(bodyParser.json());
 
-app.use('/recipes', recipeRouter);
-app.use('/ingredients', ingredientRouter);
-app.use('/fullRecipes', fullRecipesRouter);
-app.use('/random', randomRouter);
+app.use('/todo', todoRouter);
 
 
 app.listen(3000, () => {
